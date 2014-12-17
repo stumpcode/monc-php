@@ -1,0 +1,23 @@
+#
+# ACE 默认应用配置文件
+# 在线文档: https://github.com/AliCloudEngine/doc/wiki/php-app-configs 
+#
+
+# 当访问 / 路径下的文件或目录不存在时
+# 自动将路径参数转发到 /index.php
+# 此规则可根据应用实际情况进行修改
+
+tryuri:
+  - path: /
+    script: /index.php
+
+
+# 如果要在本地写文件, 请先在 "扩展服务" 里开通 "storage" 服务, 生成的文件会同步到 "storage" 里
+# 如果要在本地写文件, 默认是"/ace/app/", 倘若只有 "/ace/app/webroot/upload/" 有写操作, 那么请设置为 "/ace/app/webroot/upload/", 以提升性能
+# 如果没有本地写文件, 请删除下面的 "ossprefix" 配置, 以提升性能
+# 在删除 "ossprefix" 配置后, 所有对文件的读写都是临时的, ACE 不承诺临时文件的永久有效性
+
+ossprefix:
+  - /ace/app/
+
+

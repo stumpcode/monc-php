@@ -1,0 +1,28 @@
+{
+    "name": "monc-php",
+    "version": "0.0.0",
+    "authors": [
+        "monkeycrpas <monkeycraps.lin@gmail.com>"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "~1.9.1",
+        "zeroclipboard": "~2.1.6",
+        "underscore": "~1.7.0",
+        "bootstrap": "~3.3.1",
+        "jquery-ui": "~1.11.2",
+        "jquery.migrate": "~1.2.1",
+        "jquery-file-upload-swf": "*",
+        "DatePicker": "https://github.com/johnnyzheng/DatePicker.git",
+        "bootstrap-wysiwyg": "*",
+        "font-awesome": "~3.0.2",
+        "bootstrap3-wysihtml5-bower": "~0.3.3"
+    }
+}

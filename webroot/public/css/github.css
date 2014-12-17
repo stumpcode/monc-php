@@ -1,0 +1,358 @@
+
+#md-wrapper {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+#md-wrapper > *:first-child {
+    margin-top: 0 !important;
+}
+
+#md-wrapper > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+#md-wrapper a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+#md-wrapper a:hover {
+    text-decoration: underline;
+}
+
+#md-wrapper h1,
+#md-wrapper h2,
+#md-wrapper h3,
+#md-wrapper h4,
+#md-wrapper h5,
+#md-wrapper h6 {
+    margin: 20px 0 10px;
+    padding: 0;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+#md-wrapper h1 tt,
+#md-wrapper h1 code,
+#md-wrapper h2 tt,
+#md-wrapper h2 code,
+#md-wrapper h3 tt,
+#md-wrapper h3 code,
+#md-wrapper h4 tt,
+#md-wrapper h4 code,
+#md-wrapper h5 tt,
+#md-wrapper h5 code,
+#md-wrapper h6 tt,
+#md-wrapper h6 code {
+    font-size: inherit;
+}
+
+#md-wrapper h1 {
+    font-size: 28px;
+    color: #000;
+}
+
+#md-wrapper h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+}
+
+#md-wrapper h3 {
+    font-size: 18px;
+}
+
+#md-wrapper h4 {
+    font-size: 16px;
+}
+
+#md-wrapper h5 {
+    font-size: 14px;
+}
+
+#md-wrapper h6 {
+    color: #777;
+    font-size: 14px;
+}
+
+#md-wrapper p,
+#md-wrapper blockquote,
+#md-wrapper ul,
+#md-wrapper ol,
+#md-wrapper dl,
+#md-wrapper li,
+#md-wrapper table,
+#md-wrapper pre {
+    margin: 15px 0;
+}
+
+#md-wrapper hr {
+    background: transparent url('../../images/modules/pulls/dirty-shade.png') repeat-x 0 0;
+    border: 0 none;
+    color: #ccc;
+    height: 4px;
+    padding: 0;
+}
+
+#md-wrapper > h2:first-child,
+#md-wrapper > h1:first-child,
+#md-wrapper > h1:first-child + h2,
+#md-wrapper > h3:first-child,
+#md-wrapper > h4:first-child,
+#md-wrapper > h5:first-child,
+#md-wrapper > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#md-wrapper h1 + p,
+#md-wrapper h2 + p,
+#md-wrapper h3 + p,
+#md-wrapper h4 + p,
+#md-wrapper h5 + p,
+#md-wrapper h6 + p {
+    margin-top: 0;
+}
+
+#md-wrapper li p.first {
+    display: inline-block;
+}
+
+#md-wrapper ul,
+#md-wrapper ol {
+    padding-left: 30px;
+}
+
+#md-wrapper ul li > :first-child,
+#md-wrapper ol li > :first-child {
+    margin-top: 0;
+}
+
+#md-wrapper ul li > :last-child,
+#md-wrapper ol li > :last-child {
+    margin-bottom: 0;
+}
+
+#md-wrapper dl {
+    padding: 0;
+}
+
+#md-wrapper dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px;
+}
+
+#md-wrapper dl dt:first-child {
+    padding: 0;
+}
+
+#md-wrapper dl dt > :first-child {
+    margin-top: 0;
+}
+
+#md-wrapper dl dt > :last-child {
+    margin-bottom: 0;
+}
+
+#md-wrapper dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px;
+}
+
+#md-wrapper dl dd > :first-child {
+    margin-top: 0;
+}
+
+#md-wrapper dl dd > :last-child {
+    margin-bottom: 0;
+}
+
+#md-wrapper blockquote {
+    border-left: 4px solid #DDD;
+    padding: 0 15px;
+    color: #777;
+}
+
+#md-wrapper blockquote > :first-child {
+    margin-top: 0;
+}
+
+#md-wrapper blockquote > :last-child {
+    margin-bottom: 0;
+}
+
+#md-wrapper table {
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+#md-wrapper table tr {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#md-wrapper table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+#md-wrapper table tr th {
+    font-weight: bold;
+}
+
+#md-wrapper table tr th,
+#md-wrapper table tr td {
+    border: 1px solid #ccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
+#md-wrapper table tr th > :first-child,
+#md-wrapper table tr td > :first-child {
+    margin-top: 0;
+}
+
+#md-wrapper table tr th > :last-child,
+#md-wrapper table tr td > :last-child {
+    margin-bottom: 0;
+}
+
+#md-wrapper img {
+    max-width: 100%;
+}
+
+#md-wrapper span.frame {
+    display: block;
+    overflow: hidden;
+}
+
+#md-wrapper span.frame > span {
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto;
+}
+
+#md-wrapper span.frame span img {
+    display: block;
+    float: left;
+}
+
+#md-wrapper span.frame span span {
+    clear: both;
+    color: #333;
+    display: block;
+    padding: 5px 0 0;
+}
+
+#md-wrapper span.align-center {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+#md-wrapper span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center;
+}
+
+#md-wrapper span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#md-wrapper span.align-right {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+#md-wrapper span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right;
+}
+
+#md-wrapper span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+
+#md-wrapper span.float-left {
+    display: block;
+    margin-right: 13px;
+    overflow: hidden;
+    float: left;
+}
+
+#md-wrapper span.float-left span {
+    margin: 13px 0 0;
+}
+
+#md-wrapper span.float-right {
+    display: block;
+    margin-left: 13px;
+    overflow: hidden;
+    float: right;
+}
+
+#md-wrapper span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right;
+}
+
+#md-wrapper code,
+#md-wrapper tt {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
+
+#md-wrapper pre > code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+}
+
+#md-wrapper .highlight pre,
+#md-wrapper pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+#md-wrapper pre code,
+#md-wrapper pre tt {
+    background-color: transparent;
+    border: none;
+}
