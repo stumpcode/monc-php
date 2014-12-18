@@ -9,33 +9,30 @@ $versionName = '0.0.0';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="monc">
 
-    <?= MHtml::css(param('res') . '/css/monc.css') ?>
-    <?= MHtml::css(param('res') . "/css/icons.min.css") ?>
-    <?= MHtml::css(param('res') . "/bower_components/font-awesome/css/font-awesome.min.css") ?>
-    <?= MHtml::css(param('res') . "/bower_components/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.min.css") ?>
+    <?= MHtml::css('/css/monc.css') ?>
+    <?= MHtml::css("/css/icons.min.css") ?>
+    <?= MHtml::css("/bower_components/font-awesome/css/font-awesome.min.css") ?>
+    <?= MHtml::css("/bower_components/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.min.css") ?>
 
 
-    <?= MHtml::css(param('res') . '/css/admin.css') ?>
+    <?= MHtml::css('/css/admin.css') ?>
 
-    <?= MHtml::javascript(param('res') . '/bower_components/jquery/jquery.js') ?>
-    <?= MHtml::javascript(param('res') . '/bower_components/bootstrap/dist/js/bootstrap.js') ?>
+    <?= MHtml::javascript('/bower_components/jquery/jquery.js') ?>
+    <?= MHtml::javascript('/bower_components/bootstrap/dist/js/bootstrap.js') ?>
     <?=
-    MHtml::javascript(param('res')
-        . '/bower_components/jquery.migrate/jquery-migrate-1.2.1.js') ?>
-    <?= MHtml::javascript(param('res') . '/bower_components/jquery-ui/jquery-ui.js') ?>
-    <?= MHtml::javascript(param('res') . '/js/jquery.yiigridview.js') ?>
+    MHtml::javascript('/bower_components/jquery.migrate/jquery-migrate-1.2.1.js') ?>
+    <?= MHtml::javascript('/bower_components/jquery-ui/jquery-ui.js') ?>
+    <?= MHtml::javascript('/js/jquery.yiigridview.js') ?>
     <?=
-    Html::javascript(param('res')
-        . '/bower_components/jquery-file-upload-swf/vendor/swfupload/swfupload.js') ?>
+    Html::javascript('/bower_components/jquery-file-upload-swf/vendor/swfupload/swfupload.js') ?>
     <?=
-    Html::javascript(param('res')
-        . '/bower_components/jquery-file-upload-swf/src/jquery.swfupload.js') ?>
-    <?= Html::javascript(param('res') . '/bower_components/DatePicker/dateRange.js') ?>
+    Html::javascript('/bower_components/jquery-file-upload-swf/src/jquery.swfupload.js') ?>
+    <?= Html::javascript('/bower_components/DatePicker/dateRange.js') ?>
 
-    <?= MHtml::javascript(param('res') . "/bower_components/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.all.min.js") ?>
-    <?= MHtml::javascript(param('res') . "/bower_components/bootstrap3-wysihtml5-bower/dist/locales/bootstrap-wysihtml5.zh-CN.js") ?>
+    <?= MHtml::javascript("/bower_components/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.all.min.js") ?>
+    <?= MHtml::javascript("/bower_components/bootstrap3-wysihtml5-bower/dist/locales/bootstrap-wysihtml5.zh-CN.js") ?>
 
-    <?= MHtml::javascript(param('res') . '/js/mainjs.js') ?>
+    <?= MHtml::javascript('/js/mainjs.js') ?>
 
     <script>
         // 用于绑定页面参数

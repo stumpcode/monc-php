@@ -6,7 +6,7 @@
         <div class="info" style="top: 100px;">
             <div class="clearfix" style="margin-left: -20px; ">
                 <span style="float: left; margin-right: 10px;">
-                    <img src="<?= MHtml::resImage('mc_64.png') ?>" width="50" alt=""
+                    <img src="<?= MHtml::res('image/mc_64.png') ?>" width="50" alt=""
                          style="border-radius: 20px; "/></span>
 
                 <h3 style="float:left">
@@ -97,7 +97,7 @@
                     <img class="img-responsive center-block"
                          alt="Lorem ipsum dolor sit amet"
                          style="width: 100%;border-radius: 15px;"
-                         src="<?= MHtml::resImage('data.jpg') ?>">
+                         src="<?= MHtml::res('image/data.jpg') ?>">
                 </div>
                 <div class="col-sm-6">
                     <h3 class="title"><a href="javascript:void()">monc.cc</a></h3>
@@ -118,7 +118,7 @@
                     <img class="img-responsive center-block"
                          alt="Praesent vitae adipiscing nunc"
                          style="width: 100%;border-radius: 15px;"
-                         src="<?= MHtml::resImage('showcase-3.jpg') ?>">
+                         src="<?= MHtml::res('image/showcase-3.jpg') ?>">
                 </div>
                 <div class="col-sm-6 col-sm-pull-6">
                     <h3 class="title"><a href="javascript:void()">杭州宠物志愿者网站</a>

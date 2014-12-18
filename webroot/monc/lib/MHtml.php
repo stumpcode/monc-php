@@ -4,17 +4,17 @@
 class MHtml {
 
     public static function javascript($src) {
-        $src = param('res') . '/' . $src;
+        $src = param('res') . (0 !== strpos($src, '/') ? '/' : '') . $src;
         return "<script type='text/javascript' src='{$src}'></script>";
     }
 
     public static function css($src) {
-        $src = param('res') . '/' . $src;
+        $src = param('res') . (0 !== strpos($src, '/') ? '/' : '') . $src;
         return "<link rel='stylesheet' type='text/css' href='{$src}' />";
     }
 
-    public static function resImage($src) {
-        return param('res') . '/image/' . $src;
+    public static function res($src) {
+        return param('res') . (0 !== strpos($src, '/') ? '/' : '') . $src;
     }
 
     static function activeTextField($model, $attribute, $htmlOptions = array ()) {

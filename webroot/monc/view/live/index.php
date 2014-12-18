@@ -16,7 +16,7 @@
                 <li class="ani-list-item">
                     <div class="row">
                         <div class="col-sm-3">
-                            <img src="<?= Html::resImage('banner.jpg') ?>">
+                            <img src="<?= Html::res('image/banner.jpg') ?>">
                         </div>
                         <div class="col-sm-9">
                             <div class="heading row">
